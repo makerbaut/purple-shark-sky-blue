@@ -1,1 +1,5 @@
-# To be filled in
+FROM golang:alpine
+
+WORKDIR /srv
+
+COPY makerbotex/makerbotex ./
